@@ -20,7 +20,7 @@ export class ProfileEditorComponent implements OnInit {
     this.fb.control('')
   ]);
   profileForm = new FormGroup({
-    firstname: new FormControl('', [Validators.required]),
+    firstname: new FormControl('', [Validators.required, Validators.minLength(4)]),
     lastname: new FormControl(''),
     address: new FormGroup({
       street: new FormControl(''),
@@ -57,5 +57,11 @@ export class ProfileEditorComponent implements OnInit {
       }
     });
     console.log(this.profileform.value);
+  }
+  get name() {
+    return this.profileForm.get('firstname');
+  }
+  get power() {
+    return this.profileForm.get('address');
   }
 }
