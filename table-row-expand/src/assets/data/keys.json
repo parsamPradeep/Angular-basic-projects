@@ -1,0 +1,12 @@
+{
+  "finErrorDetails": "finErrorDetails",
+  "Novaluepresent": "No value present",
+  "SERVICED": "SERVICED",
+  "responseStatus": "responseStatus",
+  "ERROR": "ERROR",
+  "REJECTED": "REJECTED",
+  "pattern": "^[0-9]+$",
+  "finData": "finData",
+  "tokenNumber": "tokenNumber",
+  "queueTimeStamp": "queueTimeStamp"
+}

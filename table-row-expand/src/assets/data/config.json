@@ -1,0 +1,19 @@
+{
+  "tableDataTopic": "/topic/tabledata",
+  "queueDepthTopic": "/topic/queuedepth",
+  "statisticsTopic": "/topic/statistics",
+  "announcementTopic": "/topic/announcement",
+  "baseUrl": "http://localhost:4080/teller-queue/",
+  "serviceTypeURL": "http://localhost:4080/teller-queue/getAllServiceTypes",
+  "counterURL": "http://localhost:4080/teller-queue/getAllCounters",
+  "allocateNextQueueItem": "allocateNextQueueItem",
+  "recall": "recall",
+  "skipQueueItem": "skipQueueItem",
+  "markAsServiced": "markAsServiced",
+  "getSkippedQueueItem": "getSkippedQueueItem",
+  "getTotalNumberServicedToday": "getTotalNumberServicedToday",
+  "recallItemInSkipQueue": "recallItemInSkipQueue",
+  "login": "http://172.16.30.175:8444/finflowz-gateway/finflowz-iam/userSignIn",
+  "logout": "http://172.16.30.175:8444/finflowz-gateway/finflowz-iam/userSignout",
+  "defaultCounterId": 11
+}

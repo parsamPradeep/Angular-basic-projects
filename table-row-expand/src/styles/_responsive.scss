@@ -1,0 +1,125 @@
+@media screen and (min-width: 992px) {
+    .panel-buttons {
+        display: none !important;
+    }
+    .ui-stage-wrapper {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .main-container {
+		left: 0px;
+    }
+    
+	.push-right {
+		#sidebar {
+			left: 0 !important;
+		}
+	}
+	.nav-brand {
+		left: 4% !important;
+	}
+	.appslist {
+		max-width: 100% !important;
+	}
+	.corebanking {
+		max-height: 0px;
+	}
+	.status {
+		width: 13% !important;
+    }
+    
+	/* css for uistages and multipurpose bar view size */
+    .ui-stage-wrapper {
+        display: none;
+    }
+    .ui-stage-show {
+        display: block;
+    }
+    .panel-buttons {
+        display: block;
+    }
+    .multipurpose-panel {
+        display: none;
+    }
+    .multipurpose-panel-show {
+        display: block;
+    }
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 640px) {
+	.small-device {
+		display: block !important;
+	}
+	.desktop-device {
+		display: none !important;
+	}
+	.section {
+		display: table !important;
+		width: 100% !important;
+	}
+	.customer {
+		border: none !important;
+		width: 100% !important;
+	}
+	.initiated {
+		// border: none !important;
+		width: 50% !important;
+		margin-bottom: 2%;
+		position: relative !important;
+		top: -24px !important;
+	}
+	.current {
+		border: none !important;
+		width: 50% !important;
+		margin-bottom: 2%;
+	}
+	.chartsection {
+		width: 100% !important;
+		border: none !important;
+		margin-bottom: 0 !important;
+		padding: 0 5px !important;
+	}
+	.title {
+		margin-bottom: 8px !important;
+	}
+	.title>button {
+		margin-left: 25% !important;
+	}
+	.title>.mat-button,
+	.mat-flat-button,
+	.mat-icon-button,
+	.mat-stroked-button {
+		line-height: 25px !important;
+		padding: 0 10px !important;
+	}
+	.status {
+		position: absolute;
+		top: 25px !important;
+		right: 0 !important;
+		width: 25% !important;
+	}
+	.footer-text-left>h5 {
+		font-size: 13px !important;
+	}
+	app-filter {
+		margin: 5px auto !important;
+	}
+	pieChart {
+		display: none !important;
+	}
+	.middle-container>mat-form-field {
+		width: 155px !important;
+	}
+	.user-select {
+		width: 155px !important;
+	}
+	.reset {
+		position: relative;
+		bottom: 10px;
+    }
+}
