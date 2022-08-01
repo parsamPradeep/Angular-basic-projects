@@ -1,0 +1,17 @@
+<div class="panel panel-default">
+  <div class="list-group" *ngIf="userProfile">
+    <a class="list-group-item active">
+      <h4 class="list-group-item-heading">{{ userProfile.username }}</h4>
+      <p class="list-group-item-text">email: {{ userProfile.email }}</p>
+      <p class="list-group-item-text">phone: {{ userProfile.phone }}</p>
+      <p class="list-group-item-text">website: {{ userProfile.website }}</p>
+      <p class="list-group-item-text">
+        address: {{ userProfile.address | json }}
+      </p>
+      <p class="list-group-item-text">
+        company: {{ userProfile.company | json }}
+      </p>
+    </a>
+  </div>
+  <button class="btn btn-primanry" (click)="submit()">Go to Home</button>
+</div>
